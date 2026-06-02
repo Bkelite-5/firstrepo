@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Barlow, sans-serif;
+}
+
+body{
+  background-color:#EFF6FF;
+  min-height:100vh;
+  display:flex;
+  justify-content:center; 
+  align-items:center;
+  padding:40px;
+}
+
+.container{
+  width:1200px;
+  max-width:100%;
+  background-color:#EFF6FF;
+  display:flex;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.left-side{
+  flex:1;
+}
+
+.left-side img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.right-side{
+  flex:1;
+  padding:60px;
+}
+
+h1{
+  font-size:30px;
+  margin-bottom:10px;
+  font-color:#2A4A5C;
+}
+
+.subtitle{
+  color:#2A4A5C;
+  margin-bottom:30px;
+}
+
+.social-buttons{
+  display:flex;
+  gap:15px;
+  margin-bottom:30px;
+}
+
+.social-buttons button{
+  flex:1;
+  padding: 14px;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.facebook{
+  backgound-color:#255A9B;
+}
+
+.linkedin{
+  background-color:#0076B6;
+}
+
+.divider{
+  text-align:center;
+  margin:20px 0;
+  color:#999
+}
+
+font-face {
+    font-family: 'barlow';
+    src: url('../fonts/barlow/barlow-regular.ttf') format('truetype');
+    font-weight:normal;
+}
+
+
+
+
+
+
+
+
+
+
