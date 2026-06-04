@@ -2,7 +2,7 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Barlow, sans-serif;
+font-family:'Barlow', sans-serif;
 }
 
 body{
@@ -121,7 +121,7 @@ h3{
 
 .create-button{
   width:100%;
-  padding:15px 30px;
+  padding:15px 31px;
   border:none;
   background-color:#5dbef6;
   color:#fff;
@@ -157,8 +157,8 @@ h3{
 
 
 @font-face {
-    font-family: 'barlow';
-    src: url('../fonts/barlow/barlow-regular.ttf') format('truetype');
+    font-family: 'Barlow';
+    src: url('fonts/barlow-regular.ttf') format('truetype');
     font-weight:normal;
 }
 
