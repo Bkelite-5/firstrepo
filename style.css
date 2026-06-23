@@ -5,6 +5,12 @@ box-sizing:border-box;
 font-family:'Barlow', sans-serif;
 }
 
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://penpot.app/blog/embed-custom-fonts-font-face-css/') format('woff2');
+    font-weight:normal;
+}
+
 body{
   background-color:#EFF6FF;
   min-height:100vh;
@@ -24,6 +30,8 @@ body{
 
 .left-side{
   flex:1;
+  position:relative;
+  width:55%;
 }
 
 .left-side img{
@@ -31,6 +39,16 @@ body{
   height:100%;
   object-fit:cover;
   display:block;
+}
+
+.logo{
+  position:absolute;
+  top:40px;
+  left:40px;
+}
+
+.logo img{
+  width:120px;
 }
 
 .right-side{
@@ -68,13 +86,34 @@ h1{
   background-color:#255A9B;
 }
 
+.facebook img{
+  width:20px;
+  height:20px;
+  margin-left:10px;
+}
+
 .Linkedin{
   background-color:#0076B6;
 }
 
+
+.Linkedin img{
+  width:20px;
+  height:20px;
+  margin-left:10px;
+}
+
 .divider{
-  text-align:center;
-  margin:20px 
+  font-size:20px;
+  display:flex;
+  align-items:center;
+}
+
+.divider::before, .divider::after{
+  content:'';
+  flex:1;
+  height:1px;
+  background-color:#ccc;
 }
 
 .input-group{
@@ -86,13 +125,13 @@ h1{
 .input-group input{
   flex:1;
   padding:14px;
-  border:1px solid #ccc;
+  border:2px solid #ccc;
   font-size:14px;
 }
 
 .input-group input:focus{
   outline:none;
-  border-left:3px solid #45abab;
+  border-left:2px solid #45abab;
   }
 
 h3{
@@ -121,18 +160,28 @@ h3{
 
 .tooltip{
   position:relative;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  width:16px;
+  height:16px;
+  border:1px solid #ccc;
+  border-radius:50%;
+  font-size:10px;
+  color:#999;
+  cursor:pointer;
 }
 
 .tooltip-text{
   visibility:hidden;
   position: absolute;
-  bottom:-80px;
+  bottom:-90px;
   left:50%;
   transform:translateX(-50%);
   width:200px;
   background:white;
   border:1px solid #ddd;
-  padding:10px;
+  padding:12px;
   box-shadow:0 2px 10px rgba(0,0,0,0.1);
   font-size:12px;
 }
