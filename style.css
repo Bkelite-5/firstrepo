@@ -57,6 +57,7 @@ body{
 }
 
 h1{
+  font:14px 'Barlow', sans-serif;
   font-size:30px;
   margin-bottom:10px;
   color:#2A4A5C;
@@ -135,6 +136,7 @@ h1{
   }
 
 h3{
+  font: 20px 'Barlow', sans-serif;
   margin-bottom:10px;
   color:#2A4A5C;
   font:barlow;
