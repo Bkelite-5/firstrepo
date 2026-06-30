@@ -40,17 +40,26 @@
       <div class="divider">
         <span>OR</span>
       </div>
-      <br>
 
       <form>
-        <div class="input-group">
-          <input type="email" placeholder="email">
-           <input type="text" placeholder="Phone">
-           </div>
+        <div class="input-row">
 
-        <h3>What type of investor are you?</h3>
+        <div class="input-group">
+          <input type="email" id="email" placeholder=" ">
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-group">
+          <input type="tel" id="phone" placeholder=" ">
+          <label for="phone">Phone</label>
+        </div>
+
+      </div>
+      
+      
+      <h3>What type of investor are you?</h3>
         <p class="small-text">
-          select the type of investor you are below.
+          Select the type of investor you are below.
         </p>
         <br>
         <br>
@@ -58,7 +67,7 @@
         <div class="radio-group">
           <label>
             <input type="radio" name="investor" checked>
-            individual
+            Individual
           </label>
         <span class="tooltip">
           i
